@@ -1,0 +1,17 @@
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\bin\Debug\net6.0\Ecomm2.DataAccess.deps.json
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\bin\Debug\net6.0\Ecomm2.DataAccess.runtimeconfig.json
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\bin\Debug\net6.0\Ecomm2.DataAccess.dll
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\bin\Debug\net6.0\Ecomm2.DataAccess.pdb
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\bin\Debug\net6.0\Ecomm2.Models.dll
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\bin\Debug\net6.0\Ecomm2.Models.pdb
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\obj\Debug\net6.0\Ecomm2.DataAccess.csproj.AssemblyReference.cache
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\obj\Debug\net6.0\Ecomm2.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\obj\Debug\net6.0\Ecomm2.DataAccess.AssemblyInfoInputs.cache
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\obj\Debug\net6.0\Ecomm2.DataAccess.AssemblyInfo.cs
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\obj\Debug\net6.0\Ecomm2.DataAccess.csproj.CoreCompileInputs.cache
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\obj\Debug\net6.0\Ecomm2.DataAccess.csproj.CopyComplete
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\obj\Debug\net6.0\Ecomm2.DataAccess.dll
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\obj\Debug\net6.0\refint\Ecomm2.DataAccess.dll
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\obj\Debug\net6.0\Ecomm2.DataAccess.pdb
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\obj\Debug\net6.0\Ecomm2.DataAccess.genruntimeconfig.cache
+D:\Infotech\Project_ecom\Ecomm2.DataAccess\obj\Debug\net6.0\ref\Ecomm2.DataAccess.dll

@@ -1,0 +1,94 @@
+﻿@model Ecomm2.Models.ViewModels.ShoppingCartVM
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+<div class="container mt-4">
+
+    <div class="card">
+        <div class="card-header bg-secondary text-white d-flex justify-content-between align-items-center">
+            <h4><i class="fas fa-shopping-cart"></i> Shopping Cart</h4>
+            <a asp-area="Customer" asp-controller="Home" asp-action="Index" class="btn btn-info text-light">Continue Shopping</a>
+        </div>
+
+        <div class="card-body">
+            @foreach (var list in Model.ListCart)
+            {
+                <div class="row align-items-center">
+
+                    <div class="col-md-3">
+                        <img src="@list.Product.ImageURL" class="img-fluid" />
+                    </div>
+
+                    <div class="col-md-3">
+                        <h5>@list.Product.Title</h5>
+                        <p class="text-muted">@Html.Raw(list.Product.Description)</p>
+                    </div>
+
+                    <div class="col-md-3 text-center">
+                        <p>@list.Price <span>*</span> @list.Count = <strong>@(list.Price * list.Count)</strong></p>
+                    </div>
+
+                    <div class="col-md-2 d-flex justify-content-center">
+                        <a asp-action="plus" asp-route-id="@list.Id" class="btn btn-outline-success">
+                            <i class="fa fa-plus"></i>
+                        </a>&nbsp;
+                        <a asp-action="minus" asp-route-id="@list.Id" class="btn btn-outline-info">
+                            <i class="fa fa-minus"></i>
+                        </a>&nbsp;
+                        <a asp-action="delete" asp-route-id="@list.Id" class="btn btn-outline-danger">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <hr>
+            }
+
+            <div class="d-flex justify-content-between align-items-center">
+                <span>Total (USD):</span>
+                <span class="fw-bold">$ @(Model.OrderHeader.OrderTotal)</span>
+            </div>
+
+            <div class="text-end mt-3">
+                <a asp-controller="Cart" asp-action="Summary" class="btn btn-success">Summary</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script></script>
+@*
+    <div class="container mt-4">
+    <div class="card">
+    <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+    <h5><i class="fas fa-shopping-cart"></i> Shopping Cart</h5>
+    <a class="btn btn-outline-light btn-sm">Continue Shopping</a>
+    </div>
+    <div class="card-body">
+    <div class="row align-items-center">
+    <div class="col-md-2 text-center">
+    <img src="placeholder.jpg" class="img-fluid rounded" alt="Product Image">
+    </div>
+    <div class="col-md-4">
+    <h6 class="fw-bold">-- TITLE --</h6>
+    <p class="text-muted">-- DESCRIPTION --</p>
+    </div>
+    <div class="col-md-2 text-center">
+    <p class="fw-bold">-- Price --</p>
+    <p>Count: <span id="count">1</span></p>
+    </div>
+    <div class="col-md-2 text-center">
+    <button class="btn btn-danger btn-sm">-</button>
+    <button class="btn btn-primary btn-sm">+</button>
+    <button class="btn btn-outline-danger btn-sm"><i class="fas fa-trash"></i></button>
+    </div>
+    </div>
+    </div>
+    <div class="card-footer d-flex justify-content-between align-items-center">
+    <h6>Total (USD): <span class="fw-bold">$ -- TOTAL --</span></h6>
+    <button class="btn btn-success">Summary</button>
+    </div>
+    </div>
+    </div>
+
+
+    *@

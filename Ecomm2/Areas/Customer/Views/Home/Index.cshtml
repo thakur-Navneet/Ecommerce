@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Ecomm2.Models.Product>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center mb-4">
+    <h2 class="display-4">Welcome to Our Store</h2>
+    <p>Explore our exclusive collection and discounts.</p>
+</div>
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-lg-4 col-md-6 mb-5">
+            <div class="card h-100 shadow-sm p-2" style="transition: transform 0.2s; cursor: pointer;"
+             onmouseover="this.style.transform='scale(0.95)'" onmouseout="this.style.transform='scale(1)'">
+                <img src="@product.ImageURL" class="card-img-top rounded" style="height: 400px;" alt="@product.Title" />
+                <div class="card-body">
+                    <h5 class="card-title">@product.Title</h5>
+                    <p class="card-text text-muted">by @product.Author</p>
+                    <p class="text-muted"><strike>List Price: $@product.ListPrice.ToString("0.00")</strike></p>
+                    <p class="text-danger font-weight-bold">Price: $@product.Price100.ToString("0.00")</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <a asp-action="Details" class="btn btn-info form-control" asp-route-id="@product.Id">Details</a>
+                        </div>
+                        <div class="col-6">
+                            <button class="btn btn-success mt-1 form-control" onclick="addToCart('@product.Title')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<script>
+    function addToCart(productId) {
+        alert("Product " + productId + " added to cart!");
+        // In a real application, you would make an AJAX call to update the cart
+    }
+</script>

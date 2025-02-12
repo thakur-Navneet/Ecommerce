@@ -1,0 +1,12 @@
+D:\Infotech\Project_ecom\Ecomm2.Utility\bin\Debug\net6.0\Ecomm2.Utility.deps.json
+D:\Infotech\Project_ecom\Ecomm2.Utility\bin\Debug\net6.0\Ecomm2.Utility.dll
+D:\Infotech\Project_ecom\Ecomm2.Utility\bin\Debug\net6.0\Ecomm2.Utility.pdb
+D:\Infotech\Project_ecom\Ecomm2.Utility\obj\Debug\net6.0\Ecomm2.Utility.csproj.AssemblyReference.cache
+D:\Infotech\Project_ecom\Ecomm2.Utility\obj\Debug\net6.0\Ecomm2.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\Infotech\Project_ecom\Ecomm2.Utility\obj\Debug\net6.0\Ecomm2.Utility.AssemblyInfoInputs.cache
+D:\Infotech\Project_ecom\Ecomm2.Utility\obj\Debug\net6.0\Ecomm2.Utility.AssemblyInfo.cs
+D:\Infotech\Project_ecom\Ecomm2.Utility\obj\Debug\net6.0\Ecomm2.Utility.csproj.CoreCompileInputs.cache
+D:\Infotech\Project_ecom\Ecomm2.Utility\obj\Debug\net6.0\Ecomm2.Utility.dll
+D:\Infotech\Project_ecom\Ecomm2.Utility\obj\Debug\net6.0\refint\Ecomm2.Utility.dll
+D:\Infotech\Project_ecom\Ecomm2.Utility\obj\Debug\net6.0\Ecomm2.Utility.pdb
+D:\Infotech\Project_ecom\Ecomm2.Utility\obj\Debug\net6.0\ref\Ecomm2.Utility.dll
